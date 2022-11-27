@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#112858]
     text-slate-300'>
         <div>
-            <img src={Logo} alt="image logo" style={{width: '50px'}}  />
+            
         </div>
         {/* Menu */}
             <ul className='hidden md:flex'>
