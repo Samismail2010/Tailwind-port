@@ -50,19 +50,19 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-700'>
                 <a className='flex justify-between items-center w-full text-slate-300' 
-                href="">
+                href="/">
                   Github <FaGithub size={30}/>  
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-500'>
                 <a className='flex justify-between items-center w-full text-slate-300'
-                 href="">
+                 href="/">
                   Resume <BsFillPersonLinesFill size={30}/>  
                 </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-fuchsia-500'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
                 <a className='flex justify-between items-center w-full text-slate-300'
-                 href="">
+                 href="/">
                   Email <HiOutlineMail size={30}/>  
                 </a>
             </li>
