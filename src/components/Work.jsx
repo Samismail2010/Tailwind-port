@@ -25,7 +25,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${DeepThoughts})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
@@ -42,7 +42,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Collab})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
@@ -59,7 +59,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${FoodFest})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
@@ -76,7 +76,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${PizzaHunt})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
@@ -93,7 +93,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Zookeepr})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
@@ -110,7 +110,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${TeamGen})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100 ease-in duration-500'>
                         <span className="text-2xl font-bold text-white tracking-wider">
                         React Js Application
                         </span>
