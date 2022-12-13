@@ -39,8 +39,8 @@ const Navbar = () => {
                     Skills
                 </Link>
             </li>
-            <li><Link to="work" smooth={true} duration={500}>
-                    Work
+            <li><Link to="projects" smooth={true} duration={500}>
+                    Projects
                 </Link>
             </li>
             <li><Link to="contact" smooth={true} duration={500}>
@@ -89,25 +89,25 @@ const Navbar = () => {
         <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700'>
                 <a className='flex justify-between items-center w-full text-slate-300'
-                href="/">
+                href="https://www.linkedin.com/in/sam-ismail-a7a462145/">
                   LinkedIn <FaLinkedin size={30}/>  
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-700'>
                 <a className='flex justify-between items-center w-full text-slate-300' 
-                href="/">
+                href="https://github.com/Samismail2010">
                   Github <FaGithub size={30}/>  
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-emerald-500'>
-                <a className='flex justify-between items-center w-full text-slate-300'
-                 href="/">
-                  Resume <BsFillPersonLinesFill size={30}/>  
+                <a onClick={onButtonClick} className='flex justify-between items-center w-full text-slate-300'
+                 href=" ">
+                  Download Resume <BsFillPersonLinesFill size={30}/>  
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
                 <a className='flex justify-between items-center w-full text-slate-300'
-                 href="/">
+                 href="mailto:samismail2010@gmail.com">
                   Email <HiOutlineMail size={30}/>  
                 </a>
             </li>
