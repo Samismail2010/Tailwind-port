@@ -8,7 +8,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     const onButtonClick = () => {
-        fetch('Resume2022.pdf').then(response => {
+        fetch('SamIsmail2023Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
